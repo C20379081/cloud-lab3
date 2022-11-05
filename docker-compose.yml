@@ -15,7 +15,7 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: secret
       MYSQL_DB: todos
-
+      
   mysql:
     image: mysql:5.7
     volumes:
